@@ -1,0 +1,19 @@
+{
+  "name": "xrpl-evm-sidechain-hardhat-quickstart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maximedgr",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.9",
+    "hardhat": "^2.22.8"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
