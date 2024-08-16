@@ -7,7 +7,7 @@
   },
   "author": "maximedgr",
   "license": "ISC",
-  "description": "",
+  "description": "Deploy your first Solidity contract on the XRPL EVM Sidechain using Hardhat.",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@nomicfoundation/hardhat-verify": "^2.0.9",
