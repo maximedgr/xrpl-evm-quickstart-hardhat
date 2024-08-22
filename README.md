@@ -150,12 +150,3 @@ I recommend using OpenZeppelin libraries, which are a reference for EVM smart co
 |Remix IDE|https://remix.ethereum.org/|
 |Grants|https://xrplgrants.org/|
 |Accelerator|https://xrplaccelerator.org/|
-
-
-
-
-
-
-
-
-
