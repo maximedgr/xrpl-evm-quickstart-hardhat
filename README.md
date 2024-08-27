@@ -126,6 +126,25 @@ The final step is an important practice: verifying your contracts.
 
 ⚠️**Note**: Currently, the explorer does not offer an API route for contract verification via CLI. You will need to use its UI and follow the steps outlined in the third option provided.
 
+## Interact with Your Deployed Contract
+
+You can interact with your deployed contract and withdraw the locked funds once the lock time has passed by running the following command:
+
+### Withdraw Funds
+
+1. **Update the Script**
+
+   Make sure to update the `withdraw.ts` script with the address of your deployed contract. Replace `"0xYourLockContractAddressHere"` with your actual contract address.
+
+2. **Run the Script**
+
+   Execute the script using Hardhat to withdraw the funds:
+
+   ```bash
+   npx hardhat run scripts/withdraw.ts --network XRPL_EVM_Sidechain_Devnet
+   ```  
+
+
 ## Going Further
 
 To go further, I encourage you to explore the [Solidity documentation](https://docs.soliditylang.org/en/v0.8.26/) to learn more about the language specifications and all the programming capabilities available. Smart contracts are programs that execute on-chain, and each operation consumes gas, so it's important to optimize them.
@@ -150,3 +169,4 @@ I recommend using OpenZeppelin libraries, which are a reference for EVM smart co
 |Remix IDE|https://remix.ethereum.org/|
 |Grants|https://xrplgrants.org/|
 |Accelerator|https://xrplaccelerator.org/|
+
