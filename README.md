@@ -1,4 +1,4 @@
-# XRPL EVM Sidechain - Getting Started with Hardhat
+# XRPL EVM Sidechain - Getting Started with Hardhat 👷
 
 The goal of this repository is to provide you with all the necessary tools to get started with Hardhat and deploy your first contract on the XRPL EVM sidechain.
 
