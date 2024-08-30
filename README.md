@@ -156,6 +156,8 @@ I recommend using OpenZeppelin libraries, which are a reference for EVM smart co
 | Repo                | Link                                                    |
 |---------------------|---------------------------------------------------------|
 | Play with ZK on the XRPL EVM Sidechain ✨ | [GitHub Repository](https://github.com/maximedgr/zk-xrpl-evm-workshop) |
+| Next.js x Rainbowkit Wallet configured for the XRPL EVM Sidechain 🌈 | [GitHub Repository](https://github.com/maximedgr/xrpl-evm-quickstart-rainbowkit) |
+
 
 
 ### Additional Resources
