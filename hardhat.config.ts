@@ -30,7 +30,7 @@ const config: HardhatUserConfig = {
         network: "XRPL_EVM_Sidechain_Devnet",
         chainId: 1440002,
         urls: {
-          apiURL: "https://explorer.xrplevm.org/api", // not the right endpoint, see readme
+          apiURL: "https://explorer.xrplevm.org/api",
           browserURL: "https://explorer.xrplevm.org/",
         }
       }

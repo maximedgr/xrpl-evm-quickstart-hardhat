@@ -50,14 +50,14 @@ const config: HardhatUserConfig = {
   },
   etherscan: {
     apiKey: {
-      'XRPL_EVM_Sidechain_Devnet': "void"
+      'XRPL_EVM_Sidechain_Devnet': "void" // no key is needed
     },
     customChains: [
       {
         network: "XRPL_EVM_Sidechain_Devnet",
         chainId: 1440002,
         urls: {
-          apiURL: "https://evm-sidechain.xrpl.org/api",
+          apiURL: "https://explorer.xrplevm.org/api", // API endpoint used for contract verification
           browserURL: "https://explorer.xrplevm.org/",
         }
       }
@@ -117,14 +117,13 @@ This version and the use of this plugin are currently recommended by Hardhat and
 ## Verify Contract
 
 The final step is an important practice: verifying your contracts. 
-1. Hardhat offers contract verification via the `hardhat-verify` plugin. You can verify your contract by running the following command: `npx hardhat verify --network XRPL_EVM_Sidechain_Devnet DEPLOYED_CONTRACT_ADDRESS "Constructor argument 1"`  
+1. Hardhat offers contract verification via the `hardhat-verify` plugin. You can verify your contract by running the following command: `npx hardhat verify --network XRPL_EVM_Sidechain_Devnet DEPLOYED_CONTRACT_ADDRESS "Constructor argument 1"`
 
 
 2. Another alternative is to use the `hardhat-ignition` plugin for verification. For more details, refer to the Hardhat documentation: [https://hardhat.org/hardhat-runner/docs/guides/verifying](https://hardhat.org/hardhat-runner/docs/guides/verifying).
 
 3. The final option is to verify your contract directly through the block explorer by manually entering the information once you search for your contract by address: [https://explorer.xrplevm.org/](https://explorer.xrplevm.org/). You will need to provide a flattened version of your contract, which you can obtain using the following command: `npx hardhat flatten contracts/Lock.sol > Flattened.sol`  
 
-⚠️**Note**: Currently, the explorer does not offer an API route for contract verification via CLI. You will need to use its UI and follow the steps outlined in the third option provided.
 
 ## Interact with Your Deployed Contract
 
